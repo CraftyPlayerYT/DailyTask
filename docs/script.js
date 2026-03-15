@@ -1,5 +1,0 @@
-$(function(){
-
-  // ton code ici
-
-});
