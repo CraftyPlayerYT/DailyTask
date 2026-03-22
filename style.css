@@ -1,3 +1,5 @@
-#bouton_test{
-  border: 2px solid black;
+#GetStarted {
+  border: 3px, block, #00a2ff;
+  background-color: #00d4a2;
+  color: black;
 }
