@@ -15,9 +15,6 @@ async function verifierServeur() {
 // 3. FONCTIONS D'AUTHENTIFICATION (Le code Google)
 function handleCredentialResponse(response) {
     const token = response.credential;
-    const payload = JSON.parse(atob(token.split('.')[1]));
-    
-    console.log("Utilisateur connecté :", payload.name);
     // Plus tard, on ajoutera ici l'envoi vers SERVER_URL
     fetch(SERVER_URL + '/verifier-token', {
     method: 'POST',
