@@ -1,5 +1,5 @@
 // 1. CONFIGURATION (Les adresses et variables globales)
-const SERVER_URL = 'https://dailytask-backend.onrender.com';
+const SERVER_URL = 'https://yourchoice-backend-bjvf.onrender.com';
 
 // 2. FONCTIONS DE MAINTENANCE (Vérification du serveur)
 async function verifierServeur() {
